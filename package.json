@@ -2,18 +2,16 @@
   "name": "meals",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://mohamed-wassal.github.io/mealsApp",
   "type": "module",
-  
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
-
-  "homepage": "https://mohamed-wassal.github.io/Meal-App-React",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
     "@tailwindcss/vite": "^4.0.4",
